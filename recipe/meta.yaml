@@ -1,5 +1,5 @@
 {% set name = "can-isotp" %}
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/can-isotp-{{ version }}.tar.gz
-  sha256: 78d3879bc24414a768156632268ca4c6ef75f39e416fd7e0ac85bed34d914e42
+  sha256: 9055e5cf6094ca678c9e5ac4479835a82b51827d588a09f3201ba0b310b5687a
 
 build:
   noarch: python
